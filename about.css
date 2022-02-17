@@ -1,0 +1,575 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+
+}
+body{
+background-color: rgb(17, 17, 17);
+
+}
+.container{
+ width: 100vw;
+ height: 100%;
+}
+.titel-section{
+    padding: 80px 0;
+}
+.titel-section h1{
+    font-size: 56px;
+    font-weight: 900!important;
+    color: #fff;
+    z-index: 1;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center!important;
+}
+.titel-section h1 span{
+    color: #ffb400;
+}
+.titel-section .bg-span{
+    font-size: 110px;
+    left: 0;
+    text-align: center!important;
+    letter-spacing: 10px;
+    line-height: .7;
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    top: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+    transform: translateY(100%);
+    color: hsla(0,0%,100%,.07)
+}
+.links{
+    position: fixed;
+    right: 1%;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    opacity: 1;
+    transform: translateY(-50%);
+    z-index: 10;}
+.links a{
+        width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    margin: 20px 0;
+    border-radius: 50%;
+    background: #2b2a2a;
+    cursor: pointer;
+}
+.links a i{
+padding-left: 16px;
+color: rgb(255, 181, 0);
+}
+.links ul{
+    list-style: none;
+}
+.links ul li{
+   margin: 20px 0;
+}
+.links ul li .span1{
+color: rgba(255, 255, 255, 0.6);
+font-size: 13px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+position: absolute;
+margin-top: 15px;
+margin-left: -100%;
+display: none;
+}
+.links ul li .span2{
+    color: rgb(255, 255, 255 , 0.6);
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -170%;
+    display: none;
+    font-size: 13px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+.links ul li .span3{
+        color: rgb(255, 255, 255, 0.6);
+        position: absolute;
+        margin-top: 15px;
+        margin-left: -150%;
+        display:none ;
+        font-size: 13px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+.links a:hover{
+    background-color:rgb(255, 181, 0) ;
+
+    
+}
+.infos{
+    display: block;
+}
+.left{
+    margin-left: 10%;
+    display: inline-block;
+}
+.left h3{
+    padding-bottom: 22px;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 600;
+}
+.info{
+    width: 35vw;
+}
+.about-list{
+    list-style: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.6;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-list li{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin: 15px 0;
+}
+.about-list .titel{
+    color: #ffffff;
+    opacity: .8;
+}
+.left a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: rgb(255, 181, 0) 1px solid;
+    border-radius: 35px;
+    text-align: center;
+    padding: 16px 35px 16px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 3%;
+    position: absolute;
+}
+.left a:hover{
+    background-color: #ffb400;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.col{
+    padding: 20px 30px 25px 40px;
+    border-radius: 5px;
+    border: 1px solid #252525;
+    flex: 0 0 40%;
+    margin: 3%;
+}
+.col h3{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+color: #ffb400;
+}
+.col h3::after{
+content: "+";
+position: absolute;
+color: #ffb400;
+font-size: 33px;
+font-weight: 300;
+}
+.col p{
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    display: block;
+    padding-left:45px ;
+position: relative;
+
+}
+.col p span{
+    display: block;
+    margin-top: 7px;
+}
+.col p::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    left: 0;
+    top: 13px;
+    background: #777;
+    box-sizing: border-box;
+}
+.line{
+    border-top: 1px solid #252525;
+    margin: 70px auto 55px;
+    max-width: 40%;
+    color: inherit;
+    background-color: currentColor;
+    opacity: .045;
+    display: block;
+    margin-top: 10%;
+}
+/* ---------------skills section------------------*/
+
+.skills h3{
+color: #fff;
+font-size: 26px;
+padding: 0 0 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.wrapper{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.col-1{
+    width: 400px;
+ display: inline-block;
+ margin:0 15%;
+}
+.col-2{
+    width: 400px;
+    display: inline-block;
+}
+.skill {
+    margin-bottom: 35px;
+    position: relative;
+        overflow-x:hidden;
+        
+}
+.skill > p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin: 5%;
+}
+.skill  p span{
+    font-size: 12px;
+    opacity: .50;
+    margin-left: 5px;
+} 
+.skill:before{
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+.skill-bar {
+    width: 100%;
+    height: 5px;
+    background: #ffb400;
+    display: block;
+    position: relative;
+}
+
+/* SKILL 1 */
+.skill1{
+    width: 95%;
+        
+}
+.skill-bar span{
+    position: absolute;
+    top: -20px;
+    padding: 0;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+.skill-bar {
+    position: relative;
+        
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+/* SKILL 2 */
+.skill2{
+    width: 95%;
+}
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+/* SKILL 3 */
+.skill3{
+    width: 95%;
+}
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+/* SKILL 4 */
+.skill4{
+    width: 95%
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+}
+
+/* SKILL 5 */
+.skill5{
+    width: 95%;
+}
+
+.skill5 .skill-count5 {
+    right: 0;
+}
+
+/* SKILL 6 */
+.skill6{
+    width: 95%
+}
+
+.skill6 .skill-count6 {
+    right: 0;
+}
+/*-----------------------EXPERIENCE & EDUCATION---------------------------*/
+
+.edection h3{
+    color: #fff;
+    font-size: 26px;
+    padding: 0 0 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.expe-box {
+    display: inline-block;
+    position: absolute;
+    width: 35%;
+    margin-left: 5%;
+}
+.expe-box2{
+    display: inline-block;
+    
+    position: absolute;
+    width: 45%;
+    margin-left: 50%;
+}
+ul{
+    list-style: none;
+    padding-bottom: 15px;
+
+}
+.expe-box li{
+    position: relative;
+    padding: 0 20px 0 60px;
+    margin: 0 0 50px;
+    display: list-item;
+}
+.expe-box li::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    bottom: 0;
+    border-left: 1px solid #333;
+}
+.expe-box .icon{
+    background-color: #ffb400;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    line-height: 40px;
+    text-align: center;
+    z-index: 1;
+    border-radius: 50%;
+    color: #fff;
+}    
+.time{
+    color: #fff;
+    font-size: 12px;
+    padding: 1px 10px;
+    display: inline-block;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: #252525;
+    opacity: .8;
+    
+}
+.expe-box li h5{
+    font-size: 18px;
+    margin: 7px 0 10px;
+    color: #fff;
+}
+.expe-box li h5 span{
+    opacity: .8;
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    padding-left: 26px;
+}
+.expe-box li h5 span::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 2px;
+    background-color: #fff;
+    left: 7px;
+    top: 9px;
+    opacity: .8;
+}
+.expe-box p{
+    margin: 0;
+    color: #eee;
+    font-size: 14px;
+
+}
+/*--------*/
+.expe-box2 li{
+    position: relative;
+    padding: 0 20px 0 60px;
+    margin: 0 0 50px;
+    display: list-item;
+}
+.expe-box2 li::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    bottom: 0;
+    border-left: 1px solid #333;
+}
+.expe-box2 .icon{
+    background-color: #ffb400;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    line-height: 40px;
+    text-align: center;
+    z-index: 1;
+    border-radius: 50%;
+    color: #fff;
+}    
+
+.expe-box2 li h5{
+    font-size: 18px;
+    margin: 7px 0 10px;
+    color: #fff;
+}
+.expe-box2 li h5 span{
+    opacity: .8;
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    padding-left: 26px;
+}
+.expe-box2 li h5 span::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 2px;
+    background-color: #fff;
+    left: 7px;
+    top: 9px;
+    opacity: .8;
+}
+.expe-box2 p{
+    margin: 0;
+    color: #eee;
+    font-size: 14px;
+}
+@media screen and (max-width : 1150px){
+    .links{
+        left: 0;
+        right: auto;
+        bottom: 0;
+        height: 10%;
+        top: auto;
+        transform: none;
+        width: 100%;
+        display: block;
+        background: #2b2a2a;
+        padding: 0;
+    }
+    .links ul{
+        display: flex;
+align-items: center;
+justify-content: space-around;
+
+    }
+    .links ul li {
+        margin-top: -5px;
+    }
+    .links a{
+        background: #444!important;
+
+    }
+    .col-1{
+     display: block;
+     width: 60%;
+
+    }
+    .col-2{
+        display: block;
+        width: 60%;
+        margin: 0 15%;
+    }
+}
+@media screen and (max-width : 1150px) {
+    .titel-section .bg-span{
+        font-size: 90px;
+      
+    }
+    .left{
+        margin-left: 10%;
+        display:block;
+        position: relative;
+    }
+    .info{
+        width: 75vw;
+    }
+    .right{
+        display: block;
+        position: relative;
+       
+        margin-top: 15px;
+    }
+    .left a{
+    margin: 20px;
+        position: relative;
+    }
+    .expe-box {
+        display: block;
+        position: relative;
+        width: 75%;
+        margin-left: 10%;
+    }
+    .expe-box2{
+        display: inline-block;
+        
+        position: absolute;
+        width: 75%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width : 1150px) {
+    .info{
+        width: 100vw;
+    }
+}

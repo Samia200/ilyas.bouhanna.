@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(17, 17, 17);
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.side-bar{
+    background-color: rgb(255, 181, 0);
+    position: fixed;
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -83%;
+    top: -50%;
+}
+.contante{
+    position: absolute;
+    z-index: 100;
+    margin: 4% 10%;
+}
+.contante img{
+    box-shadow: 4px 4px 4px 4px rgba(17, 17, 17, 0.486);
+    width: 430px;
+    height: 580px;
+    border-radius: 20px;
+}
+.text-info{
+    width: 600px;
+    display: inline-block;
+    position: absolute;
+    top: 28%;
+    margin-left: 19%;
+}
+.text-info h1{
+    color: rgb(255, 181, 0);
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    margin: 18px 0 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-info h1 span{
+    font-weight: 900;
+    color: white;
+}
+.text-info p{
+    width: 600px;
+    color: white;
+    margin: 25px 0 8%;
+    font-size: 16px;
+    line-height: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.text-info a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: rgb(255, 181, 0) 1px solid;
+    border-radius: 35px;
+    text-align: center;
+    padding: 16px 35px 16px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+.text-info a:hover{
+    background-color: rgba(255, 183, 0);
+}
+.links{
+    position: fixed;
+    right: 1%;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    opacity: 1;
+    transform: translateY(-50%);
+    z-index: 10;}
+.links a{
+        width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    margin: 20px 0;
+    border-radius: 50%;
+    background: #2b2a2a;
+    cursor: pointer;
+}
+.links a i{
+padding-left: 16px;
+color: rgb(255, 181, 0);
+}
+.links ul{
+    list-style: none;
+}
+.links ul li{
+   margin: 20px 0;
+}
+.links ul li .span1{
+color: rgba(255, 255, 255, 0.6);
+font-size: 13px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+position: absolute;
+margin-top: 15px;
+margin-left: -100%;
+display: none;
+}
+.links ul li .span2{
+    color: rgb(255, 255, 255 , 0.6);
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -170%;
+    display: none;
+    font-size: 13px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+.links ul li .span3{
+        color: rgb(255, 255, 255, 0.6);
+        position: absolute;
+        margin-top: 15px;
+        margin-left: -150%;
+        display:none ;
+        font-size: 13px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+.links a:hover{
+    background-color:rgb(255, 181, 0) ;
+
+}
+@media screen and (max-width: 1189px) and (min-width: 1110px) {
+    .text-info h1{
+        font-size: 32px;
+        line-height: 52px;
+        font-weight: 700;
+        width: 500px;
+        }
+   
+    }
+    @media screen and (max-width: 1110px)  {
+        
+        .links{
+            left: 0;
+            right: auto;
+            bottom: 0;
+            height: 10%;
+            top: auto;
+            transform: none;
+            width: 100%;
+            display: block;
+            background: #2b2a2a;
+            padding: 0;
+        }
+        .links ul{
+            display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+        }
+        .links ul li {
+            margin-top: -5px;
+        }
+        .links a{
+            background: #444!important;
+
+        }
+        .side-bar{
+            display: none;
+        }
+        .contante{
+            margin-left: 20%;
+            
+ 
+        }
+        .contante img{
+          
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+       }
+        .img{
+            margin: 0 45%;
+        }
+        .text-info h1{
+            font-size: 24px;
+            line-height: 48px;
+            margin: 29px 0 13px;
+            text-align: center;
+        }
+        .text-info{
+            display: block;
+            position: relative;
+            top: 0;
+        }
+        .text-info p{
+            text-align: center;
+        }
+         .text-info a{
+margin-left: 30%;
+}
+    }
+  
+
